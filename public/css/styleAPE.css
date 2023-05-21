@@ -1,0 +1,488 @@
+
+/*CONTENU Page 1*/
+h1,
+.grostitre {
+    color: #634092;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FDC502;
+    font-family: "co-text";
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.intro {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.tabulation {
+    margin-left: 2em;
+}
+
+#Hana {
+    width: 135px;
+    height: auto;
+}
+
+#JP {
+    width: 87px;
+    height: auto;
+}
+
+.imgHanaJP {
+    display: inline-block;
+}
+
+h2,
+.grostitre2 {
+    margin-top: 120px;
+    color: #634092;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FDC502;
+    font-family: "co-text";
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+.Regles {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 700px;
+    margin: auto;
+}
+
+h3,
+.grostitre3 {
+    margin-top: 70px;
+    color: #634092;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FDC502;
+    font-family: "co-text";
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+}
+
+
+.Hana {
+    width: 161px;
+    height: 260px;
+    margin: auto;
+}
+
+.JP {
+    width: 103px;
+    height: 129px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.perso-section {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.perso-section.row2 {
+    text-align: right;
+}
+
+.perso-card {
+    width: 170px;
+    height: 264px;
+    background-color: #B22459;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+}
+
+.perso-double .perso-card {
+    width: 240px;
+}
+
+.perso-desc {
+    display: inline-block;
+    width: calc(95% - 170px);
+    text-align: center;
+    vertical-align: top;
+}
+
+.perso-double .perso-desc {
+    width: calc(95% - 240px);
+}
+
+.rectanglerouge {
+    width: 170px;
+    height: 264px;
+    float: left;
+    margin-left: 20px;
+    display: block;
+}
+
+#rectangle2 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/*CONTENU QUI SOMMES-NOUS*/
+.introNous {
+    font-size: 16px;
+    text-align: justify;
+    width: 400px;
+    max-width: 100%;
+    margin-left: 102px;
+    margin-top: 87px;
+}
+
+.logo2 {
+    width: 133px;
+    float: right;
+    margin-top: -180px;
+    margin-right: 99px;
+}
+
+.event-section {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.event-img {
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.visite {
+    font-weight: bold;
+    margin: auto;
+    margin-top: 40px;
+    text-align: justify;
+    width: 90%;
+}
+
+.formulaire {
+    font-size: 16px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.vform {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.vform input,
+.vform textarea {
+    display: block;
+}
+
+input,
+textarea {
+    min-width: 250px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 48px;
+    margin-bottom: 32px;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+}
+
+.espace {
+    margin-top: 110px;
+}
+
+
+.vform label span {
+    font-size: 14px;
+    margin-bottom: 9px;
+    display: block;
+}
+
+.vform label {
+    width: 49%;
+}
+
+i {
+    font-size: 12px;
+}
+
+.form-buttons {
+    text-align: center;
+}
+
+.envoyer {
+    width: 120px;
+    height: 48px;
+    background-color: #634092;
+    border-color: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button {
+    font-family: 'fira-sans', sans-serif;
+}
+
+/*LIENS*/
+
+header a:active,
+header a:visited,
+header a,
+footer a:active,
+footer a:visited,
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+header a:hover,
+footer a:hover {
+    color: #FDC502;
+}
+
+a,
+a:active {
+    color: #B22459;
+    text-decoration: none;
+}
+
+span a {
+    text-decoration: underline;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #634092;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 160px;
+    position: relative;
+    bottom: 0;
+}
+
+footer h1 {
+    font-size: 32px;
+    font-family: "co-text";
+}
+
+footer p {
+    font-size: 16px;
+    font-family: "fira-sans";
+}
+
+.nomMarque {
+    margin-right: 160px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-family: "co-text";
+    font-weight: bold;
+    margin-left: 55px;
+    padding-top: 5px;
+}
+
+.reseaux {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#Twitter {
+    margin-left: 148px;
+}
+
+.reseaux {
+    float: left;
+    margin-top: 5px;
+}
+
+.icones {
+    height: 38px;
+    color: white;
+    margin-right: 7px;
+}
+
+.nomreseaux {
+    float: left;
+    margin-top: 15px;
+}
+
+.pages {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 47px;
+    position: relative;
+}
+
+footer div,
+footer p {
+    z-index: 2;
+}
+
+.triangle {
+    color: #FDC502;
+    float: left;
+    margin-top: -163px;
+    height: 160px;
+}
+
+.tritri {
+    width: 0px;
+    height: 0px;
+    border-bottom: 160px solid #FDC502;
+    border-right: 160px solid transparent;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.tritri.tri-left {
+    left: 0;
+}
+
+.tritri.tri-right {
+    transform: rotate(180deg);
+    right: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.nosadresses {
+    font-size:19px;
+    color: #634092;
+    text-align: center;
+    font-family: "co-text";
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.contactTitre{
+    font-size:28px;
+    color: #634092;
+    font-weight:bold;
+    text-align: center;
+    font-family: "co-text";
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -20px;
+}
+.iconTel{
+    margin-left: -15px;
+    height:50px;
+}
+.iconMail{
+    position: absolute;
+    margin-left:125px;
+    height: 35px;
+    margin-top: 15px;
+}
+.numTel, .contactReseaux {
+    display: inline;
+}
+.numTel{
+    margin-top: 60px;
+    position: absolute;
+    margin-left: -75px;
+}
+#contactFacebook{
+    height: 45px;
+    position: absolute;
+    margin-left: 100px;
+}
+.contactInsta{
+    height:  57px;
+    position:absolute;
+    margin-top:-2px;
+    margin-left: 50px;
+}
+.contactTwitter{
+    height: 40px;
+    position: absolute;
+    margin-top: 5px;
+}
+.adresseMail{
+    margin-top: 53px;
+    position: absolute;
+    margin-left: 55px;
+}
+.partagezReseaux{
+    margin-left: 205px;
+    margin-top: 5px;
+    width: 100%;
+}
+.contactReseaux{
+    margin-left: 220px;
+    position: absolute;
+    display: inline;
+    margin-top: -45px;
+}
+.contact{
+    padding-bottom: 6.75em;
+    border-bottom: 2px solid #FDC502;
+    width: 35%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.liste-membres img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#haut, #bas {
+    display: inline-block;
+}
+
+.liste-membres {
+    text-align: center;
+}
+
+.liste-membres div {
+    padding-inline: 1em;
+}
