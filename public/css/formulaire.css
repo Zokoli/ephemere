@@ -1,0 +1,70 @@
+fieldset{
+    width: 75%;
+    height: 92vh;
+    margin-left: 20%;
+    border: 0;
+    background-image: url("../images/formulaire/fond.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 10% 0px;
+    flex-direction: column;
+    color: white;
+    font: Queensides;
+}
+
+form div {
+    margin: 6px 25px;
+}
+
+#submit{
+    background-color: #F2AB70;
+    border: 0px;
+    padding: 0.7em;
+    border-radius: 15px;
+    color: white;
+}
+
+input, select{
+    border-radius: 7px;
+    padding: 3%;
+    margin: 10px;
+}
+
+label{
+    margin: 10px;
+}
+
+.commande{
+    display: grid;
+    grid-template-columns: repeat(2, 195px);
+    grid-template-rows: 0px 60px 60px 60px 60px 60px 60px;
+    margin: 15% auto 0 auto;
+    align-items: center;
+    width: 70%;
+}
+
+#submit{
+    width: 45%;
+    margin: 7% auto 0 14%;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to left, #E84C56, #9475A0);
+    box-shadow: 3px 4px 5px #EFB888;
+    cursor:pointer;
+}
+
+
+@media screen and (max-width: 400px){
+    fieldset{
+        font-size: smaller;
+        width: 70%;
+        height: 40vh;
+        padding: 3em 0px;
+        margin-left: 15%;
+    }
+    .commande{
+        margin: 15% auto 0 20%;
+    }
+}

@@ -1,0 +1,267 @@
+@font-face {     
+  font-family: Glirock;     
+  src:url(public/font/Glirock-Regular.otf);     
+  font-family: Queensides;     
+  src:url(public/font/QueensidesRegular-x30zV.ttf); 
+}
+
+*{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+  opacity: 50%;
+}
+
+h1, h3, li{
+    font-family: Glirock;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+p {
+    font-family: Queensides;
+}
+
+img{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+body{
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    display: flex;
+
+  }
+  
+  .text {
+    flex:1;
+    font-size: large;
+    justify-content: center;
+  }
+  
+  .image {
+    flex:1;
+   justify-content: center;
+  }
+  
+li{
+    list-style: none;
+
+}
+
+
+/*HEADER*/
+.navigation li{
+   text-align: end;
+}
+
+.navigation {
+  background-image: url('../images/Header/headerAzalais.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6em;
+  display:flex;
+  background-size: 100% 123%;
+  }
+  
+  .horizontal-list {
+    list-style-type: none;
+    padding: 19px;
+    vertical-align: middle;
+  }
+  
+  .horizontal-list li {
+    justify-content: end;
+    display: inline-block;
+    justify-content: end;
+    font-size: larger;
+    margin: 0 20px;
+  }
+
+
+  .logo {
+    width: 15%;
+    display:inline-flex;
+    vertical-align: middle;
+    margin-bottom: 1%;
+    margin-left: 15px;
+  }
+
+  .panier {
+    width: 4%;
+    display:inline-flex;
+    vertical-align: middle;
+    margin-bottom: 1%;
+  }
+
+  .horizontal-list img {  
+    margin-right: 10%;
+  }
+
+  .nav{
+    margin-top: -5%;
+    text-align: end;  
+  }
+
+  @media screen and (max-width: 400px) {
+  .logo {
+    width: 30%;
+    }
+  .horizontal-list li {
+      font-size: smaller;
+      margin: 18px 3px;
+    }
+
+  .nav {
+    margin-right:17px;
+      }
+  }
+
+
+
+  /* FOOOTER*/  
+.footer_icon:hover{
+  opacity: 50%;
+}
+    
+footer {
+  background-image: url('../images/Footer/footerAzalais.png');
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+  display:flex;
+  width: 100%;
+  margin: auto;
+  position: inherit;
+}    
+    
+.logo_footer {
+  width: 30%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+    
+footer a {
+  text-decoration: none; 
+}
+    
+.footer_nav, .footer_reseaux {
+  width: 50%; 
+  vertical-align: middle;
+  height: 100px;
+}
+
+
+.footer_reseaux {
+  align-items: flex-end;
+}
+    
+.footer_reseaux h1 {
+  margin-bottom: 0; 
+}
+
+
+.footer_text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+    
+.logo_footer, .footer_reseaux, .footer_nav {
+  flex: 1;
+}
+    
+.footer_reseaux {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_reseaux a {
+  margin-bottom: 107px ;
+}
+
+.icon_ig {
+  width: 114px;
+  margin-bottom: -18px;
+}
+
+.icon_fb {
+  margin-bottom: 20%;
+  margin-left: 40%;
+  width: 57px;
+}
+
+
+
+.footer_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  }
+  
+  .footer_nav li {
+  margin-right: 40px; /* Espacement entre les éléments li */
+  }
+
+
+
+
+  body{
+    margin-left: 0;
+  }
+
+
+  @media screen and (max-width: 400px) {
+.logo_footer {
+      width: 50%;
+      }
+
+      .footer_reseaux a {
+        margin-bottom: 10px ;
+      }
+
+      .icon_fb {
+
+        width: 37px;
+        margin: 7px -33px;
+      }
+
+      .icon_ig {
+        width: 81px;
+    margin-bottom: 17px;
+    margin: -15px -8px;
+      }
+  
+    .footer_nav li {    
+      margin: 19px -31px;
+      font-size: small;
+        }
+    }
+  
+  

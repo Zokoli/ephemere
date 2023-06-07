@@ -1,0 +1,46 @@
+@font-face {     
+    font-family: Glirock;     
+    src:url(public/font/Glirock-Regular.otf);     
+    font-family: Queenside;     
+    src:url(public/font/QueensidesMedium-x30zV.ttf); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+main {
+    text-align: center;
+    color: white;
+    background-image: url('../images/Votes/flou_votes.png');
+    background-position: center;
+    background-size: 68%;
+    background-repeat: no-repeat;
+
+}
+
+
+.description{
+    margin-bottom: 7%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Glirock;
+    padding-bottom: 3%;
+    padding-top: 9%;
+}
+
+h2 {
+    font-family: Glirock;
+}
+
+p {
+    font-family: Queenside;
+}

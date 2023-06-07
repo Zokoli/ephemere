@@ -1,0 +1,154 @@
+main a:hover{
+  opacity: 100%;
+}
+
+.slide img:hover{
+  opacity: 50%;
+}
+
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 5%;
+}
+
+.slide {
+  flex: 0 0 100%;
+  margin-top: -2%; 
+}
+
+h1{
+  margin-top: 15%;
+}
+
+.text {
+  margin-top: -2%;
+  margin-left: 17%;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  height: 500px;
+  flex:1;
+  font-size:x-large;
+  justify-content: center;
+}
+
+.slide img {
+  display: flex;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  margin-left: 60%;
+  margin-top: -50%;
+  flex: 1;
+  justify-content: center;
+
+}
+/* Styles pour le slider automatique */
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slides.auto-slider {
+  animation: slideAnimation 20s infinite;
+}
+
+@media screen and (max-width: 2600px) { 
+  .text{
+    margin-top: -2%;
+  }
+  .slide img{
+    margin-top: -42%;
+  }
+}
+
+
+@media screen and (max-width: 1500px) { 
+  .text{
+    font-size: 30px;
+    margin-top: -2%;
+  }
+  .slide img{
+    margin-top: -42%;
+  }
+}
+
+
+@media screen and (max-width: 1100px) { 
+  .text{
+    font-size: 25px;
+    margin-top: -8%;
+  }
+  .slide img{
+    margin-top: -50%;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .text {
+    font-size: 20px;
+    margin-top: -12%;
+  }
+  .slide img {
+    width: 40%;
+    margin-top: -56%;
+  }
+}
+
+/* Pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 18px;
+    margin-top: -18%;
+  }
+  .slide img {
+    width: 50%;
+    margin-top: -68%;
+  }
+  }
+
+/* Pour les écrans très petits */
+@media screen and (max-width: 576px) {
+  .text {
+    font-size: 15px;
+    margin-top: -32%;
+    width: 300px;
+  }
+  .slide img {
+    width: 45%;
+    margin-top: -75%;
+  }
+}

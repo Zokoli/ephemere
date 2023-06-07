@@ -1,0 +1,83 @@
+@font-face {     
+    font-family: Glirock;     
+    src:url(public/font/Glirock-Regular.otf);     
+    font-family: Queenside;     
+    src:url(public/font/QueensidesMedium-x30zV.ttf); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.retour {
+    font-family: "Queensides";
+    font-size: 17px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left:0;
+}
+
+.navigation {
+    background-image: url('../images/Header/headerAzalais.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 123%;
+    display:flex;
+    }
+
+body {
+    background-color: #F2AB70;
+    background-image: url('../images/Boutique/formePack.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 58% 50%;
+}
+
+h1, h2 {
+    font-family: Glirock;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 10px
+}
+
+h2 { 
+    font-size: x-large;
+
+}
+
+p, ul {
+    font-family: Queenside; 
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+.Packbiere {
+    width: 178%;
+    margin-top: 20%;
+    margin-left: -34%;
+}
+
+.contenu {
+    width: calc(95% - 170px);
+    justify-content: center;
+    flex: 1;
+    font-size: larger;
+    margin-right: 27%;
+    margin-top: 19%;
+    color: white;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+.image{
+    flex:1;
+    justify-content: center;
+}

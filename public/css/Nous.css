@@ -1,0 +1,83 @@
+@font-face {     
+  font-family: Glirock;     
+  src:url(public/font/Glirock-Regular.otf);     
+  font-family: Queenside;     
+  src:url(public/font/QueensidesMedium-x30zV.ttf); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-image: url('../images/Nous/fondnous2.png');
+  background-size: 100vw 320vh;
+  background-repeat: no-repeat;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+  
+h1 {
+  color: black;
+    text-align: center;
+    font-family: Glirock;
+    padding-top: 3%;
+    font-size: 350%;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-family: Glirock;
+  padding-bottom: 30px;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+
+  p {
+    color: black;
+    text-align: center;
+    font-family: Queenside;
+}
+
+.photo-GB {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  column-gap: 50px;
+}
+
+.photo-GB img {
+  width: 260px;
+  border-radius: 2rem;
+}
+
+
+.concept img {
+  width: 304px;
+  margin-top: 20px;
+  position: relative;
+  left: 38%;
+}
+
+.vulgarisation img {
+  width: 50%;
+  margin-top: 48px;
+  position: relative;
+  left: 25%;
+}
+
+.vulgarisation p {
+  width: 55%;
+  margin: 0 auto;
+}
