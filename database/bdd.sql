@@ -1,0 +1,11 @@
+
+CREATE TABLE IF NOT EXISTS commande(
+    id_commande INTEGER PRIMARY KEY AUTOINCREMENT,
+    nom VARCHAR(200) NOT NULL,
+    prenom VARCHAR(200) NOT NULL,
+    mail VARCHAR(200) NOT NULL,
+    adresse VARCHAR(200) NOT NULL,
+    ville VARCHAR(150) NOT NULL,
+    produit VARCHAR(200) NOT NULL,
+    quantite INTEGER NOT NULL
+);
